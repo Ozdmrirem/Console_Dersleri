@@ -1,0 +1,106 @@
+﻿            //Metotlar
+
+            //Geriye Değer Döndüren Metotlar
+            //Geriye Değer Döndürmeyen Metotlar
+
+            //Kod tekrarının önüne geçmek için metotlar kullanılır.
+
+            //void metot_isim ()
+            //{
+            //işlemler
+            //}
+
+            //void Yazdir()
+            //{
+            //    Console.WriteLine("Hoşgeldiniz");
+            //    Console.WriteLine("Ne kadar güzel bir gün");
+            //}
+
+            //Console.WriteLine("Merhaba İrem Hanım");
+            //Yazdir();
+
+            //void Yazdir()
+            //{
+            //    Console.WriteLine("Hoşgeldiniz");
+            //    Console.WriteLine("Ne kadar güzel bir gün");
+            //    Console.WriteLine("Selamlar");
+            //    Console.WriteLine("Bonjour");
+            //    Console.WriteLine("Cin Dobre");
+            //    Console.WriteLine("Good Morning");
+            //}
+
+            //Console.WriteLine("Merhaba Emre Bey");
+            //Yazdir();
+            //Yazdir();
+            //Yazdir();
+
+            //void topla()
+            //{ 
+            //    int s1 = 14;
+            //    int s2 = 28;
+            //    int s3 = s1 + s2;
+            //    Console.WriteLine("Toplam: " + s3);
+            //}
+            //topla();
+
+            //void yazdir(string p)
+            //{
+            //    Console.Write(p);
+            //}
+            //yazdir("merhaba");
+
+            //void kisibilgi(string ad, string soyad, string sehir)
+            //{
+            //    Console.WriteLine("Ad: " + ad);
+            //    Console.WriteLine("Soyad: " + soyad);
+            //    Console.WriteLine("Şehir: " + sehir);
+            //}
+
+            //kisibilgi("Emre", "Hanoğlu", "İstanbul");
+
+            //void topla(int s1, int s2)
+            //{
+            //    int sonuc = s1 + s2;
+            //    Console.WriteLine(sonuc);
+            //}
+            //topla(74, 99);
+
+            //void ogrbilgi(string ad,string soyad,int s1, int s2,int s3)
+            //{
+            //    Console.WriteLine("Ad: " + ad);
+            //    Console.WriteLine("Soyad: " + soyad);
+            //    int ortalama = (s1 + s2 + s3)/3;
+            //    Console.WriteLine("Ortalama: " + ortalama);
+            //}
+            //ogrbilgi("İrem","Özdemir", 85, 90, 95);
+
+
+            //geriye değer döndüren metotlar
+
+            //int topla()
+            //{
+            //    int s1 = 47;
+            //    int s2 = 35;
+            //    int sonuc = s1 + s2;
+            //    return sonuc;
+            //}
+            //Console.WriteLine(topla());
+
+
+            //string bilgiler(string p1, string p2)
+            //{
+            //    return p1 + " " + p2;
+            //}
+            //Console.WriteLine(bilgiler("Ali", "Çınar"));
+
+
+            //int topla(int s1, int s2)
+            //{
+            //    int sonuc = s1 + s2;
+            //    return sonuc;
+            //}
+            //Console.Write("Sayı 1: ");
+            //int sayi1=Convert.ToInt32(Console.ReadLine());
+            //Console.Write("Sayı 2: ");
+            //int sayi2 = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("Sonuç:" + topla(sayi1, sayi2));
