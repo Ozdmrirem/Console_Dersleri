@@ -1,0 +1,7 @@
+C:\Users\irem\source\repos\Console_Dersleri\bin\Debug\Console_Dersleri.exe.config
+C:\Users\irem\source\repos\Console_Dersleri\bin\Debug\Console_Dersleri.exe
+C:\Users\irem\source\repos\Console_Dersleri\bin\Debug\Console_Dersleri.pdb
+C:\Users\irem\source\repos\Console_Dersleri\obj\Debug\Console_Dersleri.csproj.AssemblyReference.cache
+C:\Users\irem\source\repos\Console_Dersleri\obj\Debug\Console_Dersleri.csproj.CoreCompileInputs.cache
+C:\Users\irem\source\repos\Console_Dersleri\obj\Debug\Console_Dersleri.exe
+C:\Users\irem\source\repos\Console_Dersleri\obj\Debug\Console_Dersleri.pdb
