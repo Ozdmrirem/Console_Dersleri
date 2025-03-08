@@ -1,0 +1,10 @@
+﻿--bit 0 ve 1 değerleri için
+--char(10) sabit uzunluklu veriler için kullanılır.
+--date
+--decimal(18,2)
+--int
+--n// latin alfabesi dışındaki karakterler için
+--varchar (değişken uzunluklu veriler için kullanılır.)
+
+--telefon, TC --> char
+--İsim --> varchar
