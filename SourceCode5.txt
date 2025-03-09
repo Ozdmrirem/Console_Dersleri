@@ -1,0 +1,67 @@
+﻿--DML --> Data Manipulation Language
+--Select
+--Insert
+--Update
+--Delete
+
+--Select listeleme işlemleri
+--Select * from Table_Name
+
+-- * Hepsini getirir.
+
+--select * from TblPerson
+--Select City from tblperson
+--Select Name,City from tblperson
+--Select * from TblCountry
+
+--Select * from TblCountry Where CountryName='Fransa'
+--Select * from TblCountry Where CountryCapital='Ankara'
+--Select * from TblCountry where CountryId>=3
+--Select * from TblCountry Where CountryId>2 and CountryCapital='Paris'
+--Select * from TblCountry Where CountryId<3 or CountryName='Makedonya'
+
+--insert
+--insert into (column1,column2,...) values (d1,d2,d3,...)
+
+
+--insert into TblCountry (CountryName, CountryCapital) values ('Mısır','Kahire')
+--Select * from TblCountry 
+
+--insert into TblCountry(CountryName) values ('İtalya')
+
+--insert into TblPerson(Name,City) values ('Ahmet Sarı','Manisa')
+--Select * from TblPerson
+
+--Delete from tablo_adı where şart...
+--Delete from TblPerson where Id=6
+--Select * from TblPerson
+
+--Update TblPerson set name='Ahmet Sarılı',City='Artvin' where Id=4
+--select * from TblPerson
+
+--Update TblPerson set City='Sakarya' where Id=5 
+--select * from TblPerson
+
+--insert into TblPerson(Name,City) values ('Aslı','Kütahya')
+--select * from TblPerson
+
+--Count Sum Avg
+
+--Code Airlines
+--Uçuş
+--ID Kalkış Varış Fiyat Kapasite
+--Relation (Veri tutarlığı ve veri tekrarının önüne geçilmesi)
+
+--Select * from TblFlight
+
+--Select COUNT(*) from TblPerson
+
+--Select COUNT(*) from TblFlight where Price<850
+
+--Select SUM(capacity) from TblFlight
+
+--Select AVG(price) from TblFlight
+
+--Select * from TblFlight where DepartureLocation=(Select  CountryId FROM TblCountry Where CountryName='Türkiye')
+
+--Update TblFlight set Price=Price+10 where ArrivalLocation=(select CountryId from TblCountry where CountryName='Fransa')
